@@ -1,6 +1,12 @@
 // Write a function rotate(arr[], d, n) that rotates arr[] of n by d elements
+
+
 public class RotateArray {
 
+    // Method (use temp array)
+    // 1. Store d elements in a temp array
+    // 2. Shift rest of the array
+    // 3. Store back the d array
     static void rotate(int arr[], int d, int arrSize){
 
         // store d elements in temp array
@@ -24,6 +30,8 @@ public class RotateArray {
         }
         System.out.println();
     }
+
+    // Method ()
     public static void main(String[] args) {
 
         int arr[] = {1, 2, 3, 4, 5, 6, 7};
