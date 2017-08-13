@@ -1,4 +1,4 @@
-// Write a function rotate(arr[], d, n) that rotates arr[] of n by d elements
+// Write a function rotate(arr[], d, n) that rotates arr[] of n by d element
 
 
 public class RotateArray {
